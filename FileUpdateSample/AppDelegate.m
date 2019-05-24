@@ -17,6 +17,9 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    
+    [_StopBtn setEnabled:false];    //起動時は処理をしていないので停止ボタンは無効
+    [_InfoLog setStringValue:@""];  //情報ラベルを空欄に
 }
 
 
@@ -24,5 +27,7 @@
     // Insert code here to tear down your application
 }
 
+- (IBAction)Start:(id)sender {
+}
 
 @end

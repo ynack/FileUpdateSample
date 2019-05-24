@@ -13,6 +13,7 @@
 		33EDBF622297A21B00094711 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EDBF612297A21B00094711 /* main.m */; };
 		33EDBF6D2297A21B00094711 /* FileUpdateSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EDBF6C2297A21B00094711 /* FileUpdateSampleTests.m */; };
 		33EDBF782297A21B00094711 /* FileUpdateSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EDBF772297A21B00094711 /* FileUpdateSampleUITests.m */; };
+		33EDBF8D2297C3C700094711 /* DragDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EDBF8C2297C3C700094711 /* DragDrop.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,8 @@
 		33EDBF732297A21B00094711 /* FileUpdateSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileUpdateSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33EDBF772297A21B00094711 /* FileUpdateSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileUpdateSampleUITests.m; sourceTree = "<group>"; };
 		33EDBF792297A21B00094711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33EDBF8B2297C3C700094711 /* DragDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragDrop.h; sourceTree = "<group>"; };
+		33EDBF8C2297C3C700094711 /* DragDrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragDrop.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 				33EDBF5D2297A21B00094711 /* MainMenu.xib */,
 				33EDBF602297A21B00094711 /* Info.plist */,
 				33EDBF612297A21B00094711 /* main.m */,
+				33EDBF8B2297C3C700094711 /* DragDrop.h */,
+				33EDBF8C2297C3C700094711 /* DragDrop.m */,
 				33EDBF632297A21B00094711 /* FileUpdateSample.entitlements */,
 			);
 			path = FileUpdateSample;
@@ -256,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33EDBF622297A21B00094711 /* main.m in Sources */,
+				33EDBF8D2297C3C700094711 /* DragDrop.m in Sources */,
 				33EDBF5A2297A21A00094711 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

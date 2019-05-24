@@ -12,5 +12,10 @@
 
 @property (weak) IBOutlet NSTextField *SelectPath;
 
+@property (weak) IBOutlet NSButton *StartBtn;
+@property (weak) IBOutlet NSButton *StopBtn;
+
+@property (weak) IBOutlet NSTextField *InfoLog;
+
 @end
 
